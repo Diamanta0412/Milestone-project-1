@@ -226,11 +226,46 @@ div > .main-content {
     position: relative;
     top: 280px;
 }
+.top {
+    text-align: center;
+    position: relative;
+    /* top: 750px;*/
+    margin-bottom: 10px;
+}
+
+.color {
+    background-color: #4d676c;
+    color:white;
+    
+}
+#white-color {
+    color:white;
+    position: relative;
+    top: 10px;
+    right: 50px;
+    text-align: center;
+
+}
+
+.media-container {
+    position: relative;
+    top: 270px;
+    color: white;
+
+}
+.video-stream {
+    width: 500px;
+    height: 350px;
+    position: relative;
+    top: 100px;
+    right: -550px;
+    display: block;
+}
 /*Footer section*/
 footer {
     position: relative;
-    height: 10px;
-    top: 120vh;
+    /* height: 10px; */
+    top: 100vh;
     text-align: center;
 
 }
@@ -315,6 +350,16 @@ ul > .social-links {
         position: relative;
         top: 570px;
 }
+
+    .video-stream {
+        max-width: 576px;
+        width: 500px;
+       height: 350px;
+       position: relative;
+       top: 100px;
+       right: -300px;
+       display: block;
+    }
  }
 
 @media (min-width: 768px) {
