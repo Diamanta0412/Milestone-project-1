@@ -70,7 +70,7 @@ Overview
 
 ## Features
 
--   Responsive on all device sizes - work is still needed
+-   Responsive on all device sizes is not fully working, some are working some are not - work is still needed
 
 -   Interactive elements
 
