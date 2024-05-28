@@ -1,18 +1,11 @@
 body {
     font-family: 'Roboto', 'Poppins', sans-serif;
     text-align: center;
-    
-    
-    
-
 }
+
+/*Navbar*/
 nav {
     background-color: #4d676c;
-}
-.container-fluid {
-    padding-left: 0;
-    padding-right: 0;
-    
 }
 .navbar-brand  {
     text-transform: uppercase;
@@ -42,12 +35,14 @@ nav {
     color: #f9ef23;
 }
 
-button {
-    color: white;
+/* Containers*/
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #4d676c;
 }
-header {
-    
-}
+
+/*hero section*/
 #hero-image {
     height: 100%;
     width: 100%;
@@ -79,17 +74,33 @@ h3 > .join {
     transform: translate(-50%, -50%);
     font-weight: bold; 
 }
-
-
+.btn .join {
+    background-color: red;
+    border-radius: 2px;
+    border:#f9ef23
+}
+.no-joining-fee {
+    color:rgb(232, 218, 218);
+    text-align: center;
+    font-size: 1.5rem;
+    position: relative;
+    top: 525px;
+    right: 20px;
+}
 a:hover {
     color: white;
     text-decoration: none;
 }
 
+
+.content {
+    text-align: center;
+    position: relative;
+    top: 750px;
+}
 .container {
    text-align: center;
    position: relative;
-   top: 600px;
 }
 
 .same-height {
@@ -132,7 +143,7 @@ a:hover {
     color:#4d676c;
     margin-bottom: 20px;
 }
-
+/*Media Queries*/
 @media (min-width: 1200px) {
     .container {
         width: 1170px;
@@ -141,6 +152,13 @@ a:hover {
 @media (min-width: 992px) {
     .container {
         width: 970px;
+    }
+    .heading .level-2 {
+        font-size: 3.6rem;
+    }
+    .join {
+        position: relative;
+        top: 50px;
     }
 }
 @media (min-width: 768px) {
@@ -153,27 +171,58 @@ a:hover {
     .text {
         margin: 0 0 20px;
     }
-}
-@media (min-width: 992px) {
-    .heading .level-2 {
-        font-size: 3.6rem;
-    }
-}   
 
+    .container {
+        width: 750px;
+    }
+
+    .btn .join {
+        background-color: red;
+        border-radius: 2px;
+        border: #f9ef23;
+        position: relative;
+        top: 100px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .same-height-box {
+        flex: 1;
+        padding: 20px 20px 0;
+        position: relative;
+        
+    }
+    .text {
+        margin: 0 0 20px;
+    }
+
+    .container {
+        width: 750px;
+    }
+
+    .btn .join {
+        background-color: red;
+        border-radius: 2px;
+        border: #f9ef23;
+        position: relative;
+        top: 100px;
+    }
+}
+/*Paragraph section*/
 .text {
+    display: block;
     -ms-flex-positive: 1;
     flex-grow: 1;
     padding: 0;
     margin: 0 0 10px;
-}
-p {
-    display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     unicode-bidi: isolate;
 }
+
+/*Footer section*/
 footer {
     height: 50px;
     position: relative;
@@ -181,7 +230,10 @@ footer {
     text-align: center;
 
 }
-
+footer > nav {
+    background-color: #4d676c;
+    background-size: cover;
+}
 .social-links {
     text-align: center;
 }
@@ -201,4 +253,10 @@ ul {
 
 .social-links i:hover {
     color:#f9ef23
+}
+
+.copyright{
+    font-style: italic;
+    font-size: medium;
+    color: white;
 }
