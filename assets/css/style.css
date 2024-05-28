@@ -1,8 +1,8 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+} */
 
 body {
     font-family: 'Roboto', 'Poppins', sans-serif;
@@ -46,9 +46,10 @@ nav {
     padding-left: 0;
     padding-right: 0;
     background-color: #4d676c;
+    /
 }
-
 /*hero section*/
+/*----- Credit to Love Running project on how to add the image in the background------*/
 #hero-image {
     height: 100%;
     width: 100%;
@@ -91,13 +92,13 @@ h3 > .join {
     position: relative;
     top: 525px;
     
-.no-joining-fee {
+/* .no-joining-fee {
     color: rgb(232, 218, 218);
     text-align: center;
     font-size: 1.5rem;
     position: relative;
     top: 525px;
-    right: 5px;
+    right: 5px; */
 }
 a:hover {
     color: white;
@@ -111,18 +112,19 @@ a:hover {
     top: 750px;
 }
 .container {
-   text-align: center;
-   position: relative;
+   width: 100%;
+   padding: 10px;
+   padding-left: 10px;
+   margin-right: auto;
+   margin-left: auto;
 }
-
+/*-----Credit to Pure Gym----*/
 .same-height {
     display: flex;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
     width: 100%;
     line-height: 1.6;
-    position: relative;
-    padding: 20px 20px 0;
     /* top: 600px; */
 }
 .same-height-box {
@@ -138,7 +140,9 @@ a:hover {
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
+    line-height: 1.6;
 }
+/*-----Credit to Pure Gym ---*/
 .heading {
     display: block;
     font-family: 'Roboto', 'Poppins', sans-serif;
@@ -213,14 +217,12 @@ ul {
 
 /*Media Queries*/
 
-@media screen and (min-width: 576px) {
+ @media screen and (min-width: 576px) {
     .container {
         max-width: 576px;
     }
 
-    .container-fluid {
-        max-width: 576px;
-    }
+    
     .same-height-box {
         flex: 1;
         padding: 20px 20px 0;
@@ -230,6 +232,7 @@ ul {
     .text {
         margin: 0 0 20px;
     }
+   
     /* .btn .join {
         background-color: red;
         border-radius: 2px;
@@ -246,15 +249,19 @@ ul {
         position: relative;
         top: 50px;
     }
+    .no-joining-fee {
+        color:rgb(232, 218, 218);
+        text-align: center;
+        font-size: 1.5rem;
+        position: relative;
+        top: 570px;
 }
-}
-
+ }
 
 @media (min-width: 768px) {
     .same-height-box {
         flex: 1;
         padding: 20px 20px 0;
-        position: relative;
         
     }
     .text {
@@ -265,29 +272,36 @@ ul {
         width: 750px;
     }
 
-    .btn .join {
+     /* .btn .join {
         background-color: red;
         border-radius: 2px;
         border: #f9ef23;
         position: relative;
-        top: 100px;
-    }
-}
-@media (min-width: 992px) {
+        top: 150px; */
+     }   
+ 
+ @media (min-width: 992px) {
     .container {
         width: 970px;
+    }
+    .container-fluid {
+        max-width: 992px;
     }
     .heading .level-2 {
         font-size: 3.6rem;
     }
     .join {
         position: relative;
-        top: 50px;
+        top: 600px;
     }
-}
+} 
 
-@media (min-width: 1200px) {
+ @media (min-width: 1200px) {
     .container {
         width: 1170px;
+    }
+
+    .container-fluid {
+        max-width: none;
     }
 }
