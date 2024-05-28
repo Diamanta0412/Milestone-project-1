@@ -175,24 +175,82 @@ a:hover {
     margin-inline-end: 0px;
     unicode-bidi: isolate;
 }
+.color-change {
+    background-color: #101010;
+    text-align: center;
+}
+.container-page-two {
+    text-align: center;
+    background-color: hsl(190, 17%, 36%);
+    color: white;
+    font-size: 1.0rem;
+   
 
+    
+
+}
+ h2 {
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    position: relative;
+    top: 60px;
+ }
+.about {
+   height: 100%;
+   width: 100%;
+   background: url("../images/background-img.png") no-repeat center center;
+   position: absolute;
+   /* top: 80px; */
+   /* margin-top: 15%;*/
+   margin-bottom: auto;
+   background-size: cover;
+}
+
+.about > .center {
+    text-align: center;
+    position: relative;
+    top: 75px;
+}
+
+div > .main-content {
+    position: relative;
+    top: 300px;
+}
+
+.font {
+    font-size: 1.5rem;
+}
+
+.facilities {
+    position: relative;
+    top: 280px;
+}
 /*Footer section*/
 footer {
-    height: 50px;
     position: relative;
-    top: 750px;
+    height: 10px;
+    top: 120vh;
     text-align: center;
 
 }
-footer > nav {
+/* .container-fluid > footer {
+    position: relative;
+    bottom: 100px;
+} */
+/* footer > nav {
     background-color: #4d676c;
     background-size: cover;
-}
+} */
 .social-links {
     text-align: center;
 }
 ul {
     list-style-type: none;
+}
+ul > .social-links {
+    position: relative;
+    top: 100px;
 }
 .social-links li {
     display: inline;
@@ -214,6 +272,7 @@ ul {
     font-size: medium;
     color: white;
 }
+
 
 /*Media Queries*/
 
