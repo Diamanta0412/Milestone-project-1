@@ -102,9 +102,14 @@ Credits:
 Bootstrap: For responsive design components.
 FontAwesome: For social media icons.
 Google Fonts: For the Poppins and Roboto fonts.
+
+
  Used images :
+ 
 ![Man-Working-out](https://github.com/Diamanta0412/Milestone-project-1/assets/66073644/6037f657-3d83-4e03-aea9-e2f6cb0a20ff)
+
 ![Warming-up](https://github.com/Diamanta0412/Milestone-project-1/assets/66073644/5f09cb1b-2104-49fb-b325-dd8258e08511)
+
 ![background-img](https://github.com/Diamanta0412/Milestone-project-1/assets/66073644/a983edc2-ee2b-4e1e-ad62-3439a8a988a5)
 
 
