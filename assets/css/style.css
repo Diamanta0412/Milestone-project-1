@@ -1,0 +1,117 @@
+body {
+    font-family: 'Roboto', 'Poppins', sans-serif;
+    text-align: center;
+    
+    
+    
+
+}
+nav {
+    background-color: #4d676c;
+}
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+.navbar-brand  {
+    text-transform: uppercase;
+    
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    color: white;
+}
+.navbar-brand:hover{
+    color:#f9ef23
+}
+.navbar-nav {
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 2px;
+   
+}
+
+.nav-link {
+    color: white;
+    font-style: italic;
+}
+
+.nav-link:hover {
+    color: #f9ef23;
+}
+
+button {
+    color: white;
+}
+header {
+    
+}
+#hero-image {
+    height: 100%;
+    width: 100%;
+    background: url('../images/tive.png') no-repeat center center;
+    position: absolute;
+    background-size: cover;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white; 
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 5.5em;
+    
+}
+
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    color: #f9ef23; 
+    transform: translate(-50%, -50%);
+    font-weight: bold; 
+}
+
+.join  {
+    color:#f9ef23;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+footer {
+    height: 50px;
+    position: relative;
+    top: 750px;
+    text-align: center;
+
+}
+
+.social-links {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+.social-links li {
+    display: inline;
+}
+
+.social-links i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 2.5%;
+    color: white;
+}
+
+.social-links i:hover {
+    color:#f9ef23
+}
