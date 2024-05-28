@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', 'Poppins', sans-serif;
     text-align: center;
@@ -70,7 +76,6 @@ h3 > .join {
     position: absolute;
     top: 70%;
     left: 50%;
-    color: #f9ef23; 
     transform: translate(-50%, -50%);
     font-weight: bold; 
 }
@@ -85,7 +90,14 @@ h3 > .join {
     font-size: 1.5rem;
     position: relative;
     top: 525px;
-    right: 20px;
+    
+.no-joining-fee {
+    color: rgb(232, 218, 218);
+    text-align: center;
+    font-size: 1.5rem;
+    position: relative;
+    top: 525px;
+    right: 5px;
 }
 a:hover {
     color: white;
@@ -143,71 +155,9 @@ a:hover {
     color:#4d676c;
     margin-bottom: 20px;
 }
-/*Media Queries*/
-@media (min-width: 1200px) {
-    .container {
-        width: 1170px;
-    }
-}
-@media (min-width: 992px) {
-    .container {
-        width: 970px;
-    }
-    .heading .level-2 {
-        font-size: 3.6rem;
-    }
-    .join {
-        position: relative;
-        top: 50px;
-    }
-}
-@media (min-width: 768px) {
-    .same-height-box {
-        flex: 1;
-        padding: 20px 20px 0;
-        position: relative;
-        
-    }
-    .text {
-        margin: 0 0 20px;
-    }
 
-    .container {
-        width: 750px;
-    }
 
-    .btn .join {
-        background-color: red;
-        border-radius: 2px;
-        border: #f9ef23;
-        position: relative;
-        top: 100px;
-    }
-}
 
-@media only screen and (max-width:600px) {
-    .same-height-box {
-        flex: 1;
-        padding: 20px 20px 0;
-        position: relative;
-        
-    }
-    .text {
-        margin: 0 0 20px;
-    }
-
-    .container {
-        width: 750px;
-    }
-
-    .btn .join {
-        background-color: red;
-        border-radius: 2px;
-        border: #f9ef23;
-        position: relative;
-        top: 100px;
-    }
-}
 /*Paragraph section*/
 .text {
     display: block;
@@ -259,4 +209,85 @@ ul {
     font-style: italic;
     font-size: medium;
     color: white;
+}
+
+/*Media Queries*/
+
+@media screen and (min-width: 576px) {
+    .container {
+        max-width: 576px;
+    }
+
+    .container-fluid {
+        max-width: 576px;
+    }
+    .same-height-box {
+        flex: 1;
+        padding: 20px 20px 0;
+        position: relative;
+        
+    }
+    .text {
+        margin: 0 0 20px;
+    }
+    /* .btn .join {
+        background-color: red;
+        border-radius: 2px;
+        border: #f9ef23;
+        position: relative;
+        top: 100px;
+    } */
+
+    .btn-lg {
+        padding: .5rem 1rem;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        border-radius: .3rem;
+        position: relative;
+        top: 50px;
+    }
+}
+}
+
+
+@media (min-width: 768px) {
+    .same-height-box {
+        flex: 1;
+        padding: 20px 20px 0;
+        position: relative;
+        
+    }
+    .text {
+        margin: 0 0 20px;
+    }
+
+    .container {
+        width: 750px;
+    }
+
+    .btn .join {
+        background-color: red;
+        border-radius: 2px;
+        border: #f9ef23;
+        position: relative;
+        top: 100px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+    .heading .level-2 {
+        font-size: 3.6rem;
+    }
+    .join {
+        position: relative;
+        top: 50px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
 }
