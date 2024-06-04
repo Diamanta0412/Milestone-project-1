@@ -158,15 +158,6 @@ Information Sections: Clearly organized sections providing information about gym
 Join Form: A user-friendly form for joining the gym or logging in.
 Video Content: Embedded video to engage users and provide testimonials.
 
-## Credits:
-
-Bootstrap: Responsive design components such as the navigation bar toggle and how to incorporate them were based on the Whiskey Drop project- Code Institute.
-FontAwesome: For social media icons.
-Google Fonts: For the Poppins and Roboto fonts.
-READMe: template file was provided by Code Institute.
-Login /Join Form: The code was inspired by the Love Running project - Code Institute.
-
-
 ### Languages Used
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -256,15 +247,45 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
     -   A white gap can be seen below the navigation bar on the home page.
 
-## Deployment
-
-### GitHub Pages
-
 The project was deployed to GitHub Pages using Github repositories and pulling and syncing requests.
+
+## Deployment and local deployment
+## GitHub Pages
+GitHub Pages has been used to deploy live version of the website.
+
+Log in to GitHub and locate  [GitHub Repository:](https://github.com/Diamanta0412/Milestone-project-1)
+On the navigation bar locate "Settings" button on the menu.
+In the"Code and Automotation" category on the left, find the "Pages" button.
+Find the "Source" section and change the button that says "none" to "deploy from a branch" and save.
+Below this, find the "Branch" section and change from "none" to "main" then make sure the next button is on "root" and save.
+The page should automatically refresh, if not refresh it manually.
+Scroll back to locate the now-published site link in the "GitHub Pages" section.
+
+## Forking the GitHub Repository
+By forking the repository, we make a copy of the original repository on our GitHub account to view and change without affecting the original repository by using these steps:
+
+Log in to GitHub and locate [GitHub Repository:](https://github.com/Diamanta0412/Milestone-project-1)o
+At the top of the Repository, under the main navigation, find the "Fork" button.
+Now you there should be a copy of the original repository in your GitHub account.
+
+## Local Clone
+Log in to GitHub and locate [GitHub Repository:](https://github.com/Diamanta0412/Milestone-project-1)
+Under the repository name press "Clone or Download"
+Click on the code button, select clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+Open Git Bash
+Change the current working directory to the location where you would like the cloned directory to be made.
+Type 'git clone' and then paste the URL copied in the step 3.
+Press Enter and your local clone should be created.
 
 ## Credits
 
+Bootstrap: Responsive design components such as the navigation bar toggle and how to incorporate them were based on the Whiskey Drop project- Code Institute.
+FontAwesome: For social media icons.
+Google Fonts: For the Poppins and Roboto fonts.
+READMe: template file was provided by Code Institute.
 Inspiration: Love Running project for background image techniques and Pure Gym for video inspiration.
+Login /Join Form: The code was inspired by the Love Running project - Code Institute.
+
 ## Conclusion:
 ### Code
 
@@ -285,5 +306,3 @@ Inspiration: Love Running project for background image techniques and Pure Gym f
 -   My Mentor for continuous helpful feedback.
 
 -   Tutor support at Code Institute for their support.
-
-## Active Gym Website
