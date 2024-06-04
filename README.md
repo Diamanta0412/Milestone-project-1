@@ -158,9 +158,12 @@ Video Content: Embedded video to engage users and provide testimonials.
 
 ## Credits:
 
-Bootstrap: For responsive design components.
+Bootstrap: Responsive design components such as the navigation bar toggle and how to incorporate them were based on the Whiskey Drop project- Code Institute.
 FontAwesome: For social media icons.
 Google Fonts: For the Poppins and Roboto fonts.
+READMe: template file was provided by Code Institute.
+Login /Join Form: The code was inspired by the Love Running project - Code Institute.
+
 
 ### Languages Used
 
@@ -181,8 +184,9 @@ Google Fonts: For the Poppins and Roboto fonts.
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Balsamiq will be used to create the [wireframes](https://github.com/) during the design process.
+1. Balsamiq will be used to create the [wireframes](https://github.com/) during the design process.
+1. [Hover.css](https://ianlunn.github.io/Hover/) was used for the underline effect when hovering over certain elements.
+
 
 ## Testing - need furter research
 
