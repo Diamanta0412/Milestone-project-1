@@ -61,7 +61,7 @@ Overview
 
 
 *   ### Wireframes
-## More wireframes will be added in the near future
+More wireframes will be added in the near future
     -   Home Page Wireframe - [View]([https://github.com/](https://github.com/Diamanta0412/Milestone-project-1/blob/main/index.html))
 
 ![Home](https://github.com/Diamanta0412/Milestone-project-1/assets/66073644/af26c59d-0fde-446f-82ee-70ee848c872c)
