@@ -97,22 +97,22 @@ Project-Milestone-1/
 │       └── script.js
 └── README.md
 
-## Detailed Explanation of Files and Code
+# Detailed Explanation of Files and Code
 
-HTML Files
+## HTML Files
 index.html
-# Purpose: Serves as the homepage of the Active Gym website.
-# Structure:
-# Header: Contains a navbar with links to the Home, About, and Join Now / Login pages.
+ Purpose: Serves as the homepage of the Active Gym website.
+ Structure: 1st website page
+ Header: Contains a navbar with links to the Home, About, and Join Now / Login pages.
 
 
 Content Section: Highlights different aspects of the gym, such as equipment, flexibility, and activities, each in a separate box.
 Footer: Includes social media links and copyright information.
 
 
-## about.html
+### about.html
 Purpose: Provides detailed information about the gym.
-Structure:
+Structure: 2nd website page
 Header: Same as in index.html.
 Main Content: Explains the gym's welcoming environment and highlights the benefits of joining Active Gym.
 Facilities Section: Lists the different types of equipment, flexibility, and activities available at the gym.
@@ -120,18 +120,18 @@ Media Section: Embeds a YouTube video showcasing member testimonials.
 Footer: Same as in index.html.
 
 
-## join-form.html
+### join-form.html
 Purpose: Allows users to join the gym or log in.
-Structure:
+Structure: 3rd website page
 Header: Same as in index.html.
 Join Form: Includes input fields for first name, last name, email address, and password, with submit buttons for joining or logging in.
 Footer: Same as in index.html.
 
-### CSS Files
+## CSS Files
 assets/css/style.css
 Purpose: Contains custom styles for the Active Gym website.
 
-## Key Styles:
+### Key Styles:
 
 Body: Sets the font family and text alignment.
 Navbar: Styles the navbar, including the brand, links, and hover effects.
