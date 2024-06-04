@@ -251,7 +251,7 @@ The project was deployed to GitHub Pages using Github repositories and pulling a
 ## GitHub Pages
 GitHub Pages have been used to deploy live versions of the website.
 
-1. Log in to GitHub and locate  [GitHub Repository:](https://github.com/Diamanta0412/Milestone-project-1)
+1. Log in to GitHub and locate  [GitHub Repository Active Gym:](https://github.com/Diamanta0412/Milestone-project-1)
 2. On the navigation bar locate "Settings" button on the menu.
 3. In the"Code and Automation" category on the left, find the "Pages" button.
 4. Find the "Source" section, change the button that says "none" to "deploy from a branch" and save.
@@ -262,12 +262,12 @@ GitHub Pages have been used to deploy live versions of the website.
 ## Forking the GitHub Repository
 By forking the repository, we make a copy of the original repository on our GitHub account to view and change without affecting the original repository by using these steps:
 
-1. Log in to GitHub and locate [GitHub Repository](https://github.com/Diamanta0412/Milestone-project-1)
+1. Log in to GitHub and locate [GitHub Repository Active Gym:](https://github.com/Diamanta0412/Milestone-project-1)
 2. At the top of the Repository, under the main navigation, find the "Fork" button.
 3. Now you there should be a copy of the original repository in your GitHub account.
 
 ## Local Clone
-1. Log in to GitHub and locate [GitHub Repository:](https://github.com/Diamanta0412/Milestone-project-1)
+1. Log in to GitHub and locate [GitHub Repository Active Gym:](https://github.com/Diamanta0412/Milestone-project-1)
 2. Under the repository name press "Clone or Download"
 3. Click on the code button, select clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open Git Bash
