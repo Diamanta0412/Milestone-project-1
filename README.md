@@ -182,9 +182,10 @@ Login /Join Form: The code was inspired by the Love Running project - Code Insti
     - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-1. [GitHub:](https://github.com/)
+1. [GitHub:](https://github.com/) 
     - GitHub is used to store the projects code after being pushed from Git.
-1.[ Balsamiq:](https://balsamiq.com/wireframes/) will be used to create the [wireframes](https://github.com/) during the design process.
+    - (https://github.com/) during the design process.
+1. [ Balsamiq:](https://balsamiq.com/wireframes/) will be used to create the [wireframes]
 1. [Hover.css](https://ianlunn.github.io/Hover/) was used for the underline effect when hovering over certain elements.
 
 
