@@ -43,7 +43,6 @@ nav {
     padding-left: 0;
     padding-right: 0;
     background-color: #4d676c;
-    /
 }
 /*hero section*/
 /*----- Credit to Love Running project on how to add the image in the background------*/
@@ -173,11 +172,15 @@ a:hover {
     background-color: hsl(190, 17%, 36%);
     color: white;
     font-size: 1.0rem;
-   
-
-    
-
+} 
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
+    
  h2 {
     text-transform: uppercase;
     font-style: italic;
@@ -228,7 +231,7 @@ div > .main-content {
     color:white;
     position: relative;
     top: 10px;
-    right: 50px;
+    right: 0px;
     text-align: center;
 
 }
@@ -408,23 +411,23 @@ ul > .social-links {
         top: 625px;
 }
 
-    .video-stream {
-        max-width: 576px;
-        width: 560px;
-       height: 350px;
-       position: relative;
-       top: 100px;
-       right: -250px;
-       display: block;
-    }
+   .video-stream {
+    max-width: 576px;
+    width: 560px;
+    height: 350px;
+    position: relative;
+    top: 100px;
+    right: -250px;
+    display: block;
+  }
 
     .signup-form {
-            margin-top: 150px;
-            color: #fff;
-            background-color: rgba(60, 60, 60, 0.6);
-            max-width: 400px;
-            position: absolute;
-            padding: 30px;
+        margin-top: 150px;
+        color: #fff;
+        background-color: rgba(60, 60, 60, 0.6);
+        max-width: 400px;
+        position: absolute;
+        padding: 30px;
  }
 
 @media (min-width: 768px) {
@@ -440,14 +443,25 @@ ul > .social-links {
     .container {
         width: 750px;
     }
-     }   
+
+    .video-stream {
+        max-width: 576px;
+        width: 560px;
+       height: 350px;
+       position: relative;
+       top: 100px;
+       right: -110px;
+       display: block;
+    }
+     
+}   
  
  @media (min-width: 992px) {
     .container {
         width: 970px;
     }
     .container-fluid {
-        max-width: 992px;
+        /* max-width: 992px; */
     }
     .heading .level-2 {
         font-size: 3.6rem;
