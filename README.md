@@ -1,24 +1,26 @@
 <h1 align="center">Active Gym Website</h1>
 
-[View the live project here.](https://github.com/Diamanta0412/Milestone-project-1)
+[View the live project here.](https://diamanta0412.github.io/Milestone-project-1/)
 
 This README file explains the structure and functionality of the Active Gym website. The website is designed to promote a gym, providing information about its facilities, encouraging users to join, and facilitating user engagement through various sections. 
 
-<h2 align="center"></h2>
+<h2 align="center">About</h2>
 
 The Active Gym website consists of multiple web pages designed to showcase the gym's facilities, provide information about membership options, and allow users to join or log in. The website uses Bootstrap for responsive design and FontAwesome for icons. It incorporates custom CSS for additional styling and includes video content to engage users.
 
-Table of Contents
-Overview
-Technologies Used
-Project Structure
-Detailed Explanation of Files and Code
-HTML Files
-CSS Files
-JavaScript Files
-Features
-Credits
-Overview
+![Screenshot 2024-06-17 171119](https://github.com/Diamanta0412/Milestone-project-1/assets/66073644/2708756a-8c73-40cf-9fa1-69abc809a063)
+
+#### Table of Contents
+Overview <br>
+Technologies Used <br>
+Project Structure <br>
+Detailed Explanation of Files and Code <br>
+HTML Files <br>
+CSS Files <br>
+JavaScript Files  <br>
+Features <br>
+Credits  <br>
+Overview  <br>
 
 
 
@@ -167,19 +169,20 @@ Video Content: Embedded video to engage users and provide testimonials.
 
 1. [Bootstrap 4.5.3:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
-1. [Google Fonts:](https://fonts.google.com/)
+2. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-1. [Font Awesome:](https://fontawesome.com/)
+3. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [jQuery:](https://jquery.com/)
+4. [jQuery:](https://jquery.com/)
     - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-1. [Git](https://git-scm.com/)
+5. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-1. [GitHub:](https://github.com/) 
+6. [GitHub:](https://github.com/) 
     - GitHub is used to store the project's code after being pushed from Git.
     - (https://github.com/) during the design process.
-1. [ Balsamiq:](https://balsamiq.com/wireframes/) will be used to create the [wireframes]
-1. [Hover.css](https://ianlunn.github.io/Hover/) was used for the underline effect when hovering over certain elements.
+7. [ Balsamiq:](https://balsamiq.com/wireframes/) will be used to create the [wireframes]
+8. [Hover.css](https://ianlunn.github.io/Hover/) was used for the underline effect when hovering over certain elements.
+9. [Am I Resonsive?](https://ui.dev/amiresponsive/) was used for the mockup picture consisting of all 3 major devices for the READMe file.
 
 
 ## Testing - need furter research
