@@ -475,15 +475,6 @@ ul > .social-links {
         position: relative;
         top: 265px;
     }
-   .video-stream {
-    max-width: 576px;
-    width: 560px;
-    height: 350px;
-    position: relative;
-    top: 100px;
-    right: -250px;
-    display: block;
-  }
 
     .signup-form {
         margin-top: 150px;
@@ -511,13 +502,86 @@ ul > .social-links {
      }
     .main-content {
         position: relative;
-        top: 380px;
+        top: 365px;
     }
 
     .facilities {
         position: relative;
         top: 380px;
     }
+
+    .media-container {
+        position: relative;
+        top: 380px;
+        left: 1px;
+        color: white;
+    }
+    .media {
+        display: -ms-flexbox;
+        /* display: flex; */
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    h3.media-heading {
+        text-align: center;
+        position: absolute;
+        /* left: 111px; */
+    }
+    .video-stream {
+        max-width: 576px;
+        width: 2px;
+        height: 350px;
+        position: relative;
+        top: 100px;
+        left: 38px;
+        display: block;
+    }
+
+    iframe {
+        border: 0px;
+        width: 500px;
+    }
+
+    .about-page {
+        position: relative;
+        top: 100vh;
+        text-align: center;
+    }
+
+    .social-links {
+        text-align: center;
+        position: relative;
+        left: -20px;
+    }
+    .copyright {
+        font-style: italic;
+        font-size: medium;
+        color: white;
+        position: relative;
+        top: -10px;
+    }
+
+ /* ------------------------------------------------------------------Form page styles */
+    section.form-section {
+        position: relative;
+        top: -100px;
+        left: 90px;
+    }
+
+    .join-form-image {
+        height: 150vh;
+        width: 100%;
+        position: absolute;
+        margin-bottom: auto;
+    }
+
+    .form-footer {
+        position: relative;
+        top: 150vh;
+        text-align: center;
+    }
+
  }
 @media (min-width: 768px) {
     .same-height-box {
